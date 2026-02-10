@@ -1,0 +1,21 @@
+.nota-card {
+  background-color: #ffd60a;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nota-titulo {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.nota-descricao {
+  margin: 0;
+  color: #555;
+  flex-grow: 1;
+}
