@@ -1,8 +1,8 @@
 import { useState } from "react";
 import FormularioCadastro from "./components/FormularioCadastro";
 import ListaDeNotas from "./components/ListaDeNotas";
-import "./App.css";
-
+import "./assets/App.css";
+import "./assets/index.css";
 function App() {
   const [notas, setNotas] = useState([
     { id: 1, titulo: "Título", descricao: "Escreva sua nota" },
